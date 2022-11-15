@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  background-color: red;
+  color: white;
+  padding: 10px;
+}
+
+.hamburger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gorna-bulka {
+  width: 500px;
+  height: 70px;
+  background-color: #deb887;
+  border-bottom: 10px solid #d3a15f;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.ser {
+  width: 550px;
+  height: 15px;
+  background-color: #ffd700;
+  border-bottom: 5px solid #daa520;
+}
+
+.pomidor {
+  width: 450px;
+  height: 30px;
+  background-color: #ff0000;
+  border-bottom: 5px solid #dc143c;
+}
+
+.kotlet {
+  width: 450px;
+  height: 40px;
+  background-color: #cc6633;
+  border-bottom: 5px solid #993300;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.cebula {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #800080;
+  width: 400px;
+  height: 50px;
+}
+
+.cebula div {
+  width: 50px;
+  height: 100%;
+  background-color: #dda0dd;
+  border-radius: 50%;
+}
+
+.meatballsy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 100px;
+}
+
+.meatballsy div {
+  width: 100px;
+  height: 100%;
+  background-color: #a52a2a;
+  border-radius: 50%;
+}
+
+.ogorek {
+  width: 350px;
+  height: 40px;
+  background-color: #90ee90;
+  border-bottom: 20px solid #008000;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.dolna-bulka {
+  width: 500px;
+  height: 50px;
+  background-color: #deb887;
+  border-top: 15px solid #d3a15f;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.talerz {
+  width: 600px;
+  height: 30px;
+  background-color: #c0c0c0;
+  border-top: 10px solid #a2a2a2;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
