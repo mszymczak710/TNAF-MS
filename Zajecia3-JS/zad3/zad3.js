@@ -1,5 +1,9 @@
 function range(a,b) {
-  for(let i = a; i <= b; i++) {
-    console.log(i);
-  }
+  let arr = [];
+    for(let i = Math.floor(a); i <= Math.floor(b); i++) {
+      arr.push(i);
+    }
+    return arr;
 }
+
+console.log(range(5,7));
