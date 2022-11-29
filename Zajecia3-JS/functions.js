@@ -1,9 +1,7 @@
 function isOdd(x) {
-  if (x % 2 == 0) return false;
-  return true;
+  return (x % 2 == 0);
 }
 
 const isEven = x => {
-  if (x % 2 != 0) return false;
-  return true;
+  return (x % 2 != 0);
 }
