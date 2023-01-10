@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  color: orange;
+}
+
+.programming label,
+.job label {
+  color: black;
+}
+
+h1 {
+  color: orange;
+}
+
+.full-name,
+.other-data,
+.job,
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.full-name div,
+.other-data div,
+.gender,
+.message {
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+  margin-top: 10px;
+}
+
+.buttons {
+  padding: 5px;
+}
+
+.submit {
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+.reset {
+  flex-basis: 15%;
+  padding: 10px;
+}
+
+.submit,
+.reset {
+  padding: 10px;
+  background-color: orange;
+  color: white;
+  border: none;
+  margin-right: 50px;
+}
