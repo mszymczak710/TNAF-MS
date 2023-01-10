@@ -1,3 +1,7 @@
+function sum(arr) {
+
+}
+
 const sum = arr => {
   return arr.reduce((acc, currentVal) => acc + currentVal);
 }
